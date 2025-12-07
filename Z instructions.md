@@ -1,0 +1,3 @@
+Build me a storefront selling cookies with integrated stripe payments. Make sure to use stripe as the source of truth for my business, including products, customers and orders. Make sure to customer_creation='always' during the checkout to make sure customer objects are always created. 
+
+Do not create users or orders table in my database. Instead rely on the sync stripe customers and charges table as my source of truth. 
