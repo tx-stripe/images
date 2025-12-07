@@ -6,7 +6,9 @@ Make sure to use stripe as the source of truth for my business, including produc
 
 Do not create users or orders table in my database. Instead rely on the sync stripe customers and charges table.
 
-Keep the app as simple as possible. We need to finish building this within 5 minutes. No admin view. Just a single page displaying my products. 
+Keep the app simple but extremely good looking, Just a single page displaying my products. 
+
+No admin view. 
 
 When you are creating products in Stripe, be sure add the raw image url from Replit for the uploaded image so they are available in the Stripe dashboard.
 
@@ -23,3 +25,5 @@ All cookie selection should be above the fold.
 Once I add an item to the cart it should immediately pop up the dialog with my cart allowing me to checkout right away.
 
 Don't any any "powered by Stripe" branding to my shop
+
+No need to handle emails or anything else. The only integration should be Stripe.
