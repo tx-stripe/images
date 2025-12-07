@@ -10,3 +10,8 @@ Then when you are displaying the product, use the .photos field returned by stri
 
 Do NOT use random image urls. Instead when seeding products to Stripe use the photos I uploaded. 
 
+No advanced functionalities like filters. 
+
+All cookie selection should be above the fold. 
+
+Once I add an item to the cart it should immediately pop up the dialog with my cart allowing me to checkout right away.
